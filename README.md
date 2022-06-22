@@ -35,7 +35,7 @@
 * Link the local repository just created with the original you forked from 
   * If new content is added to this repository, you can pull the new changes, but the remote 'origin' points to your forked version
   * Add another remote and call it 'upstream':
-    * `git remote add upstream https://github.com/{SOURCEOFFORK}/get_in_the-robot_shinji`
+    * `git remote add upstream https://github.com/{FORKSOURCE}/get_in_the-robot_shinji`
 * To fetch or pull changes, we tell git to look at the Github upstream remote (pointing here) instead of the origin remote (which points to your fork):
   * For git to try and merge changes, we use git pull <remote> <branch>:
     * `git pull upstream main`
