@@ -3,7 +3,11 @@ def list_of_dictionaries_to_dicitonary_of_lists(pilot_tests):
     dictionary_of_results = {}
 
     # ..... complete code .......
-
+    for x in pilot_tests:
+        for y,z in x.items:
+            if y in dictionary_of_results:
+                dictionary_of_results[y].append(z)
+            else :dictionary_of_results[y] = [z]
     return dictionary_of_results
 
 
